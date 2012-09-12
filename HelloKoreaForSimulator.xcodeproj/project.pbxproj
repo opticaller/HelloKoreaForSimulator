@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4602501600ABE6000AC5E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC46024F1600ABE6000AC5E3 /* UIKit.framework */; };
+		DC4602521600ABE6000AC5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4602511600ABE6000AC5E3 /* Foundation.framework */; };
+		DC4602541600ABE6000AC5E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4602531600ABE6000AC5E3 /* CoreGraphics.framework */; };
+		DC46025A1600ABE6000AC5E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC4602581600ABE6000AC5E3 /* InfoPlist.strings */; };
+		DC46025C1600ABE6000AC5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46025B1600ABE6000AC5E3 /* main.m */; };
+		DC4602601600ABE6000AC5E3 /* HW_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46025F1600ABE6000AC5E3 /* HW_AppDelegate.m */; };
+		DC4602631600ABE6000AC5E3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4602611600ABE6000AC5E3 /* MainStoryboard_iPhone.storyboard */; };
+		DC4602661600ABE6000AC5E3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4602641600ABE6000AC5E3 /* MainStoryboard_iPad.storyboard */; };
+		DC4602691600ABE7000AC5E3 /* HW_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4602681600ABE7000AC5E3 /* HW_ViewController.m */; };
+		DC4602711600ABE7000AC5E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4602701600ABE7000AC5E3 /* SenTestingKit.framework */; };
+		DC4602721600ABE7000AC5E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC46024F1600ABE6000AC5E3 /* UIKit.framework */; };
+		DC4602731600ABE7000AC5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4602511600ABE6000AC5E3 /* Foundation.framework */; };
+		DC46027B1600ABE7000AC5E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC4602791600ABE7000AC5E3 /* InfoPlist.strings */; };
+		DC46027E1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46027D1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4602741600ABE7000AC5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4602421600ABE6000AC5E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC46024A1600ABE6000AC5E3;
+			remoteInfo = HelloKoreaForSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC46024B1600ABE6000AC5E3 /* HelloKoreaForSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloKoreaForSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC46024F1600ABE6000AC5E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC4602511600ABE6000AC5E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC4602531600ABE6000AC5E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC4602571600ABE6000AC5E3 /* HelloKoreaForSimulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloKoreaForSimulator-Info.plist"; sourceTree = "<group>"; };
+		DC4602591600ABE6000AC5E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC46025B1600ABE6000AC5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC46025D1600ABE6000AC5E3 /* HelloKoreaForSimulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloKoreaForSimulator-Prefix.pch"; sourceTree = "<group>"; };
+		DC46025E1600ABE6000AC5E3 /* HW_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HW_AppDelegate.h; sourceTree = "<group>"; };
+		DC46025F1600ABE6000AC5E3 /* HW_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW_AppDelegate.m; sourceTree = "<group>"; };
+		DC4602621600ABE6000AC5E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DC4602651600ABE6000AC5E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DC4602671600ABE6000AC5E3 /* HW_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HW_ViewController.h; sourceTree = "<group>"; };
+		DC4602681600ABE7000AC5E3 /* HW_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW_ViewController.m; sourceTree = "<group>"; };
+		DC46026F1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloKoreaForSimulatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4602701600ABE7000AC5E3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC4602781600ABE7000AC5E3 /* HelloKoreaForSimulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloKoreaForSimulatorTests-Info.plist"; sourceTree = "<group>"; };
+		DC46027A1600ABE7000AC5E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC46027C1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloKoreaForSimulatorTests.h; sourceTree = "<group>"; };
+		DC46027D1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloKoreaForSimulatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4602481600ABE6000AC5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4602501600ABE6000AC5E3 /* UIKit.framework in Frameworks */,
+				DC4602521600ABE6000AC5E3 /* Foundation.framework in Frameworks */,
+				DC4602541600ABE6000AC5E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC46026B1600ABE7000AC5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4602711600ABE7000AC5E3 /* SenTestingKit.framework in Frameworks */,
+				DC4602721600ABE7000AC5E3 /* UIKit.framework in Frameworks */,
+				DC4602731600ABE7000AC5E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4602401600ABE6000AC5E3 = {
+			isa = PBXGroup;
+			children = (
+				DC4602551600ABE6000AC5E3 /* HelloKoreaForSimulator */,
+				DC4602761600ABE7000AC5E3 /* HelloKoreaForSimulatorTests */,
+				DC46024E1600ABE6000AC5E3 /* Frameworks */,
+				DC46024C1600ABE6000AC5E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC46024C1600ABE6000AC5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC46024B1600ABE6000AC5E3 /* HelloKoreaForSimulator.app */,
+				DC46026F1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC46024E1600ABE6000AC5E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC46024F1600ABE6000AC5E3 /* UIKit.framework */,
+				DC4602511600ABE6000AC5E3 /* Foundation.framework */,
+				DC4602531600ABE6000AC5E3 /* CoreGraphics.framework */,
+				DC4602701600ABE7000AC5E3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4602551600ABE6000AC5E3 /* HelloKoreaForSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				DC46025E1600ABE6000AC5E3 /* HW_AppDelegate.h */,
+				DC46025F1600ABE6000AC5E3 /* HW_AppDelegate.m */,
+				DC4602611600ABE6000AC5E3 /* MainStoryboard_iPhone.storyboard */,
+				DC4602641600ABE6000AC5E3 /* MainStoryboard_iPad.storyboard */,
+				DC4602671600ABE6000AC5E3 /* HW_ViewController.h */,
+				DC4602681600ABE7000AC5E3 /* HW_ViewController.m */,
+				DC4602561600ABE6000AC5E3 /* Supporting Files */,
+			);
+			path = HelloKoreaForSimulator;
+			sourceTree = "<group>";
+		};
+		DC4602561600ABE6000AC5E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4602571600ABE6000AC5E3 /* HelloKoreaForSimulator-Info.plist */,
+				DC4602581600ABE6000AC5E3 /* InfoPlist.strings */,
+				DC46025B1600ABE6000AC5E3 /* main.m */,
+				DC46025D1600ABE6000AC5E3 /* HelloKoreaForSimulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4602761600ABE7000AC5E3 /* HelloKoreaForSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC46027C1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.h */,
+				DC46027D1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.m */,
+				DC4602771600ABE7000AC5E3 /* Supporting Files */,
+			);
+			path = HelloKoreaForSimulatorTests;
+			sourceTree = "<group>";
+		};
+		DC4602771600ABE7000AC5E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4602781600ABE7000AC5E3 /* HelloKoreaForSimulatorTests-Info.plist */,
+				DC4602791600ABE7000AC5E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC46024A1600ABE6000AC5E3 /* HelloKoreaForSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4602811600ABE7000AC5E3 /* Build configuration list for PBXNativeTarget "HelloKoreaForSimulator" */;
+			buildPhases = (
+				DC4602471600ABE6000AC5E3 /* Sources */,
+				DC4602481600ABE6000AC5E3 /* Frameworks */,
+				DC4602491600ABE6000AC5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloKoreaForSimulator;
+			productName = HelloKoreaForSimulator;
+			productReference = DC46024B1600ABE6000AC5E3 /* HelloKoreaForSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC46026E1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4602841600ABE7000AC5E3 /* Build configuration list for PBXNativeTarget "HelloKoreaForSimulatorTests" */;
+			buildPhases = (
+				DC46026A1600ABE7000AC5E3 /* Sources */,
+				DC46026B1600ABE7000AC5E3 /* Frameworks */,
+				DC46026C1600ABE7000AC5E3 /* Resources */,
+				DC46026D1600ABE7000AC5E3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4602751600ABE7000AC5E3 /* PBXTargetDependency */,
+			);
+			name = HelloKoreaForSimulatorTests;
+			productName = HelloKoreaForSimulatorTests;
+			productReference = DC46026F1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4602421600ABE6000AC5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HW_;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = HexWriter;
+			};
+			buildConfigurationList = DC4602451600ABE6000AC5E3 /* Build configuration list for PBXProject "HelloKoreaForSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC4602401600ABE6000AC5E3;
+			productRefGroup = DC46024C1600ABE6000AC5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC46024A1600ABE6000AC5E3 /* HelloKoreaForSimulator */,
+				DC46026E1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4602491600ABE6000AC5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46025A1600ABE6000AC5E3 /* InfoPlist.strings in Resources */,
+				DC4602631600ABE6000AC5E3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DC4602661600ABE6000AC5E3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC46026C1600ABE7000AC5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46027B1600ABE7000AC5E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC46026D1600ABE7000AC5E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4602471600ABE6000AC5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46025C1600ABE6000AC5E3 /* main.m in Sources */,
+				DC4602601600ABE6000AC5E3 /* HW_AppDelegate.m in Sources */,
+				DC4602691600ABE7000AC5E3 /* HW_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC46026A1600ABE7000AC5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46027E1600ABE7000AC5E3 /* HelloKoreaForSimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4602751600ABE7000AC5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC46024A1600ABE6000AC5E3 /* HelloKoreaForSimulator */;
+			targetProxy = DC4602741600ABE7000AC5E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4602581600ABE6000AC5E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4602591600ABE6000AC5E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC4602611600ABE6000AC5E3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4602621600ABE6000AC5E3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4602641600ABE6000AC5E3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4602651600ABE6000AC5E3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4602791600ABE7000AC5E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC46027A1600ABE7000AC5E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC46027F1600ABE7000AC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4602801600ABE7000AC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4602821600ABE7000AC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKoreaForSimulator/HelloKoreaForSimulator-Prefix.pch";
+				INFOPLIST_FILE = "HelloKoreaForSimulator/HelloKoreaForSimulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC4602831600ABE7000AC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKoreaForSimulator/HelloKoreaForSimulator-Prefix.pch";
+				INFOPLIST_FILE = "HelloKoreaForSimulator/HelloKoreaForSimulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC4602851600ABE7000AC5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloKoreaForSimulator.app/HelloKoreaForSimulator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKoreaForSimulator/HelloKoreaForSimulator-Prefix.pch";
+				INFOPLIST_FILE = "HelloKoreaForSimulatorTests/HelloKoreaForSimulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC4602861600ABE7000AC5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloKoreaForSimulator.app/HelloKoreaForSimulator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKoreaForSimulator/HelloKoreaForSimulator-Prefix.pch";
+				INFOPLIST_FILE = "HelloKoreaForSimulatorTests/HelloKoreaForSimulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4602451600ABE6000AC5E3 /* Build configuration list for PBXProject "HelloKoreaForSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC46027F1600ABE7000AC5E3 /* Debug */,
+				DC4602801600ABE7000AC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4602811600ABE7000AC5E3 /* Build configuration list for PBXNativeTarget "HelloKoreaForSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4602821600ABE7000AC5E3 /* Debug */,
+				DC4602831600ABE7000AC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4602841600ABE7000AC5E3 /* Build configuration list for PBXNativeTarget "HelloKoreaForSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4602851600ABE7000AC5E3 /* Debug */,
+				DC4602861600ABE7000AC5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4602421600ABE6000AC5E3 /* Project object */;
+}
